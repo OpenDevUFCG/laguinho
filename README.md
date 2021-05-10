@@ -32,12 +32,7 @@ A API é responsável por receber todas as requisições dos outros componentes 
 
 Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja mais detalhes no [CONTRIBUTING.md](CONTRIBUTING.md) e se joga no laguinho com a gente!
 
-# Preparando o ambiente
-
-Este projeto é feito utilizando [Python 3](https://www.python.org/), você precisa tê-lo [instalado](https://www.python.org/downloads/) na sua máquina.
-
-Para rodarmos as dependências de banco de dados e servidores externos, utilizamos Docker e Docker Compose, caso ainda não tenha instalado na sua máquina, [esse tutorial](https://docs.docker.com/install/) ajuda a instalar o docker e [esse tutorial](https://docs.docker.com/compose/install/) ajuda a instalar o docker-compose, mas lembre-se que qualquer dúvida no processo de instalação, sempre tem alguém no [discord](https://discord.gg/vMcuNtt) pra ajudar!
-
+## Participe
 
 Quer implementar alguma nova funcionalidade ou corrigir algum bug? Pode ir dando uma olhada nas issues abertas pra saber no que estamos trabalhando ou se preferir pode abrir sua própria caso queira corrigir ou adicionar algo novo!
 
