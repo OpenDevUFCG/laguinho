@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/pages/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Laguinho</title>
+        <title>Home - Laguinho</title>
         <meta
           name="description"
           content="compartilhar e consumir diferentes tipos de dados, com o objetivo de auxiliar o desenvolvimento de aplicações ou de pesquisas."
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Laguinho</h1>
+        <h1 className={styles.title}>Laguinho</h1>
       </main>
     </div>
   );
