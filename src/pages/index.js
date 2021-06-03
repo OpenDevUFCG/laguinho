@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/pages/Home.module.css';
+import banner from '../assets/banner.png';
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Laguinho</h1>
+        <img src={banner} alt="Laguinho" />
+        <h1 className={styles.title}>Hello World!</h1>
       </main>
     </div>
   );
