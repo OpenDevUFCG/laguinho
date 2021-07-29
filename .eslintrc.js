@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb', 'prettier/react', 'prettier/javascript'],
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -16,5 +16,8 @@ module.exports = {
   plugins: ['react', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'react/jsx-filename-extension': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'import/no-unresolved': 'off',
   },
 };
