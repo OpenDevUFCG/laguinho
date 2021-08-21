@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '@styles/components/Header.module.css';
-import banner from '@assets/laguinho/banner.png';
+import icon from '@assets/laguinho/icon.png';
 
 function Header() {
   return (
@@ -9,13 +9,16 @@ function Header() {
         <Link href="/">Início</Link>
         <Link href="/">Sobre</Link>
         <Link href="/">Datasets</Link>
-        <Link passHref href="/">
+        <a target="_blank" href="https://opendevufcg.org/" rel="noreferrer">
           OpenDevUFCG
-        </Link>
+        </a>
       </div>
 
       <div className={styles.menu}>
-        <img src={banner} alt="Banner do Laguinho" />
+        <div>
+          <img src={icon} alt="Banner do Laguinho" />
+          <h1>Laguinho</h1>
+        </div>
 
         <div>
           <input type="text" />
