@@ -60,3 +60,35 @@
   flex: 1;
   height: 100%;
 }
+
+.socialSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.socialSection > button {
+  border: none;
+  height: 60%;
+  width: 7em;
+  font-size: 1em;
+  margin: 0 0.5em;
+  color: white;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+.socialSection > button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.socialSection > button:nth-child(1) {
+  background-color: var(--primary);
+}
+
+.socialSection > button:nth-child(2) {
+  background-color: var(--secondary);
+}

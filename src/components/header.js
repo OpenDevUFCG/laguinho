@@ -48,7 +48,7 @@ function Header() {
             onChange={(e) => setSearch(e.target.value)}
           />
 
-          <div>
+          <div className={styles.socialSection}>
             <button type="button">Registrar</button>
             <button type="button">Login</button>
           </div>
