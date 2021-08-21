@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home - Laguinho</title>
+        <title>Início - Laguinho</title>
         <meta
           name="description"
           content="compartilhar e consumir diferentes tipos de dados, com o objetivo de auxiliar o desenvolvimento de aplicações ou de pesquisas."
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Hello World!</h1>
+        <h1 className={styles.title}>Página inicial!</h1>
       </main>
     </div>
   );
