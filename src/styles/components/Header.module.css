@@ -29,10 +29,25 @@
 .menu {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #eee;
-  padding: 0.5em 0;
+  padding: 0 2em;
 }
 
-.menu img {
-  width: 17em;
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand > h1 {
+  color: var(--primary);
+}
+
+.brand img {
+  width: 5em;
+}
+
+.sideSection {
+  display: flex;
+  align-items: center;
 }

@@ -15,18 +15,20 @@ function Header() {
       </div>
 
       <div className={styles.menu}>
-        <div>
+        <div className={styles.brand}>
           <img src={icon} alt="Banner do Laguinho" />
           <h1>Laguinho</h1>
         </div>
 
-        <div>
-          <input type="text" />
-        </div>
+        <div className={styles.sideSection}>
+          <div>
+            <input type="text" />
+          </div>
 
-        <div>
-          <button type="button">Registrar</button>
-          <button type="button">Login</button>
+          <div>
+            <button type="button">Registrar</button>
+            <button type="button">Login</button>
+          </div>
         </div>
       </div>
     </header>
