@@ -1,9 +1,13 @@
+import { useState } from 'react';
 import Link from 'next/link';
 import { BiHomeAlt, BiBox, BiBook, BiStar } from 'react-icons/bi';
 import styles from '@styles/components/Header.module.css';
 import icon from '@assets/laguinho/icon.png';
+import SearchBar from './searchBar';
 
 function Header() {
+  const [search, setSearch] = useState('');
+
   return (
     <header className={styles.container}>
       <div className={styles.navigation}>
@@ -38,9 +42,11 @@ function Header() {
         </div>
 
         <div className={styles.sideSection}>
-          <div>
-            <input type="text" />
-          </div>
+          <SearchBar
+            placeholder="Pesquisar por datasets..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
 
           <div>
             <button type="button">Registrar</button>

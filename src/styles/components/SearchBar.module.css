@@ -1,0 +1,26 @@
+.container {
+  width: 40%;
+  min-width: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  margin: 0 1em;
+  height: 60%;
+  border-radius: 30px;
+  padding: 0 1em;
+}
+
+.container > svg {
+  margin: 0.2em;
+  font-size: 18px;
+}
+
+.container > input {
+  flex: 1;
+  border: none;
+  background: none;
+  height: 100%;
+  font-size: 18px;
+  outline: none;
+}
