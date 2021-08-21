@@ -1,6 +1,6 @@
 /* eslint-disable react/forbid-prop-types */
 import PropTypes from 'prop-types';
-import '../styles/globals.css';
+import '@styles/global.css';
 
 function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
