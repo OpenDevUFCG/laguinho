@@ -20,10 +20,16 @@
   color: white;
   font-weight: 500;
   transition: 0.2s;
+  display: flex;
+  align-items: center;
 }
 
 .navigation a:hover {
   transform: scale(1.1);
+}
+
+.navigation svg {
+  margin-right: 0.2em;
 }
 
 .menu {

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BiHomeAlt, BiBox, BiBook, BiStar } from 'react-icons/bi';
 import styles from '@styles/components/Header.module.css';
 import icon from '@assets/laguinho/icon.png';
 
@@ -6,10 +7,26 @@ function Header() {
   return (
     <header className={styles.container}>
       <div className={styles.navigation}>
-        <Link href="/">Início</Link>
-        <Link href="/">Sobre</Link>
-        <Link href="/">Datasets</Link>
+        <Link href="/">
+          <a>
+            <BiHomeAlt />
+            Início
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <BiBook />
+            Sobre
+          </a>
+        </Link>
+        <Link href="/">
+          <a>
+            <BiBox />
+            Datasets
+          </a>
+        </Link>
         <a target="_blank" href="https://opendevufcg.org/" rel="noreferrer">
+          <BiStar />
           OpenDevUFCG
         </a>
       </div>
