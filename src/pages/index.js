@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '@styles/pages/Home.module.css';
-import banner from '@assets/banner.png';
+import banner from '@assets/laguinho/banner.png';
 
 export default function Home() {
   return (
