@@ -1,13 +1,13 @@
 /* eslint-disable react/forbid-prop-types */
 import PropTypes from 'prop-types';
-import '@styles/global.css';
+import '@styles/globals.css';
 
 function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
 CustomApp.propTypes = {
-  Component: PropTypes.element.isRequired,
+  Component: PropTypes.func.isRequired,
   pageProps: PropTypes.object.isRequired,
 };
 
