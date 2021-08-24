@@ -17,7 +17,7 @@ function Header() {
             Início
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/about">
           <a>
             <BiBook />
             Sobre
