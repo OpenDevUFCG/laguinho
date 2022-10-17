@@ -1,6 +1,10 @@
-# Laguinho API [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discord.gg/UgR5WrY)
+# Laguinho [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discord.gg/UgR5WrY)
 
-![LaguinhoAPI Logo](https://i.imgur.com/lgiZyDn.png)
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/40612788/127563131-c8662123-d693-4408-8920-64544164101a.png" alt="Laguinho Logo" style="width:400px; "/>
+</p>
+
 
 Assim como o Laguinho da UFCG é (era) o ponto mais central da universidade, esta API centralizará dados para pesquisas e aplicações.
 
